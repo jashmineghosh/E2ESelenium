@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 55.128 s <<< FAILURE! - in TestSuite
+basePagenavigation(Academy.HomePage)  Time elapsed: 0.054 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...> but was:<...1>
+	at Academy.HomePage.basePagenavigation(HomePage.java:34)
+
+teardown(Academy.HomePage)  Time elapsed: 2.991 s  <<< FAILURE!
+java.lang.NullPointerException
+

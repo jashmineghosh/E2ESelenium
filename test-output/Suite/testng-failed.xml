@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="Other Tests(here browsers remain open till all tests done)(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePagenavigation"/>
+          <include name="begin"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.HomePagelogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="begin"/>
+        </methods>
+      </class> <!-- Academy.HomePagelogin -->
+      <class name="Academy.ValidateNavBar">
+        <methods>
+          <include name="begin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavBar -->
+    </classes>
+  </test> <!-- Other Tests(here browsers remain open till all tests done)(failed) -->
+</suite> <!-- Failed suite [Suite] -->

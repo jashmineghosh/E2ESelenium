@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Academy.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Validate navigation bar(browser closes after this test)">
+    <classes>
+      <class name="Academy.ValidateNavBar"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Other Tests(here browsers remain open till all tests done)">
+      <classes>
+      <class name="Academy.HomePage"/>
+      <class name="Academy.HomePagelogin"/>
+      <class name="Academy.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
